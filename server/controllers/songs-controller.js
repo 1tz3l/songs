@@ -68,7 +68,7 @@ const updateSong = async (req, res) => {
         }
         } catch (error) {
             return res.status(500).send({
-                message: 'Lo sentimos, ha ocurrido un error interno en el servidor'
+                message: 'Ha ocurrido un error interno en el servidor'
             });
         }
     };
